@@ -123,7 +123,7 @@ function createAndAppendTodo(todo) {
     labelContainer.appendChild(deleteIconContainer);
 
     let deleteIcon = document.createElement("i");
-    deleteIcon.classList.add("far", "fa-trash-alt", "delete-icon");
+    deleteIcon.classList.add("fa-solid", "fa-trash", "delete-icon");
 
     deleteIcon.onclick = function() {
         onDeleteTodo(todoId);
